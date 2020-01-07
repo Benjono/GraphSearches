@@ -16,7 +16,7 @@ def breadthFirstWithMatrix(graphMatrix,start):
         queue.pop(0)
     return edges
 
-print(breadthFirstWithMatrix([[0,1,1,0],[1,0,0,0],[1,0,0,1],[1,0,0,0]],0))
+print(breadthFirstWithMatrix([[0,1,1,0],[1,0,0,0],[1,0,0,1],[0,0,1,0]],0))
 # [[0,1,1,1],
 #  [0,0,0,0],
 #  [0,0,0,0],
