@@ -8,7 +8,6 @@ def depthFirstWithAdjacencyList(adjacencyList,start):
         #go through each edge
         if(i not in discovered):
             #if the vertex hasn't been discovered
-            discovered+=[i] #discover it
             edges+=[(current,i)] #add the edge
             edges+=depthFirstWithAdjacencyList(adjacencyList,i) #explore the node
     return edges
